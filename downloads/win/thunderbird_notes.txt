@@ -1,0 +1,32 @@
+http://www.mozillamessaging.com/en-US/thunderbird/download/
+http://www.mozilla.org/projects/calendar/lightning/download.html
+go to thunderbird, tools->add ons->install...->z:\downloads\lightning-1.0b2-tb-win.xpi->install
+Tools->Add ons->Extensions->Lightning, enable
+Then: Events_and_tasks->New_calendar, right click->create
+https://stbeehive.oracle.com/caldav/st/home/nelson.sproul@oracle.com/calendars/MyCalendar
+goog calendar: http://www.google.com/calendar/ical/nelson.sproul%40gmail.com/private-a672ae126dc12851025d709319ec8dcf/basic.ics
+
+
+You have to add Oracle LDAP. 
+
+click the Address Book button.  Gets a new window.
+
+annoying there's no right click-add new option.  It's under File->New->LDAP Directory 
+Settings: 
+Name: ldap.oracle.com (just a display name actually) 
+Hostname: ldap.oracle.com 
+Base DN: dc=oracle,dc=com 
+port number: 636 
+Bind DN: (leave empty) 
+[x] Use secure connection (SSL) [ that is, click it ] 
+that should do it.  Perhaps a restart after it's set up will assist.  
+
+
+
+On 02/18/2011 02:26 PM, Nelson Sproul wrote: 
+When I am addressing a newly composed mail, theres no auto-completion for the names I enter.  Is that just the way it is?
+
+ 
+
+n
+

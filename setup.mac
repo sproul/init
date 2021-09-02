@@ -1,0 +1,13 @@
+:
+# speed up kbd
+# vbox
+# turn on 'remote sharing' (for ssh)
+# ruby ok?
+# https://www.howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/
+xcode-select --install
+
+which brew
+brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt
+
+# prep locate
+/usr/libexec/locate.updatedb

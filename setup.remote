@@ -1,0 +1,142 @@
+:
+# recipe for new box Z:
+#
+#        11:25:07 nsproul o89 536$ setup.remote z Z-FULL-NAME.PROVIDER.COM
+#                - setup.remote initializing environment on Z-FULL-NAME.PROVIDER.COM to be known as z...
+#                - z added to expand_host_name recordkeeping
+#                - z identified as [Linux|windows]
+#                - if Linux
+#                       - Linux z ssh configured: ssh.propagate
+#                       - [automatically] ./i setup_unix
+#                - else # windows
+#                       11:26:09 Z UI.1$ start->run->cmd.run_as_admin
+#                       ADMIN.CMD> net use x: \\o89\downloads /persistent:yes /user:\nsproul 0,Nelsov
+#                       ADMIN.CMD> cd /d x:\c
+#                       ADMIN.CMD> setup1.bat # turns off UAC, automatically reboots to run setup2.bat
+#                              - [automatic:] setup2.bat # NETFramework4 (takes a long time), installs chocolatey, drop, firefox, etc., 
+#                       ADMIN.CMD> cd /d c:\users\nelsons\dp
+#                       ADMIN.CMD> c:\cygwin\bin\bash ./i
+#                              - STEP BY HAND IN EMACS: setup3_windows.sh
+#
+expand_host_name_shortcut=$1
+host=`expand_host_name $2`
+plat=$3
+pw=$4
+
+if [ "$expand_host_name" != "$host" ]; then
+        if [ -n "$host" ]; then
+                if ! grep "^$expand_host_name\t$host" $DROP/emacs/lisp/data/n-data-menu-host.menu; then
+                        echo "$expand_host_name_shortcut	$host" >> $DROP/emacs/lisp/data/n-data-menu-host.menu
+                fi
+        else
+                host=$expand_host_name_shortcut
+        fi
+fi
+if [ -z "$plat" ]; then
+        plat=win
+fi
+
+case $plat in
+        Linux|win)
+        ;;
+        *)
+                err $0: error: unrecognized plat $plat
+                exit -1
+        ;;
+esac
+if [ $plat != "$OS" ]; then
+        err $0: error: must init host from like box, but we are on $OS trying to initialize $plat
+        exit -1
+fi
+case $OS in
+        win)
+                rm -rf $DOWNLOADS/c
+                mkdir  $DOWNLOADS/c
+                cp -p $DROP/init/setup* $DROP/bin/win/on_boot.bat $DROP/bin/win/reboot_and_run.bat $DOWNLOADS/c
+
+                src_host=`ip`
+
+                DP_BASE=dp
+                case "$dp" in
+                        *Dropbox)
+                                DP_BASE=Dropbox
+                        ;;
+                esac
+
+                (
+                cd $DOWNLOADS/c
+                for f in setup*; do
+                        sedi $f "s/@@SRC_HOST@@/$src_host/g"
+                        sedi $f "s/@@DP_BASE@@/$DP_BASE/g"
+                done
+                )
+                
+                DOWNLOADS_PARENT=`dirname $DOWNLOADS`
+                DOWNLOADS_PARENT_DOS=`cygpath --dos $DOWNLOADS_PARENT`
+                echo about to net share downloads dir...
+                net share "downloads=$DOWNLOADS_PARENT_DOS\\downloads"
+                echo done setting up share
+                if [ ! -d $DOWNLOADS/cygwin ]; then
+                        echo $0: no $DOWNLOADS/cygwin, so copying one now IN THE BACKGROUND in preparation for new box setup2.bat...
+                        nohup cp -pr /cygdrive/c/cygwin $DOWNLOADS/cygwin &
+                fi
+                pw=`.n.host $USERNAME $HOSTNAME`
+                NetSh Advfirewall set allprofiles state off
+                cat <<EOF
+net use x: \\\\$src_host\\downloads /persistent:yes /user:$USERNAME $pw
+cd /d x:\\c
+setup1.bat
+cd /d c:\\users\\nelsons\\$DP_BASE
+bash ./i
+echo STEP BY HAND IN EMACS: setup3_windows.sh
+echo back on source machine...
+NetSh Advfirewall set allprofiles state on
+NetSh Advfirewall show allprofiles
+EOF
+        ;;
+        Linux)
+                if [ -n "$pw" ]; then
+                        sp $host $pw
+                fi
+                if [ $host = "vagrant" ]; then
+                        host=v
+                fi
+                #sshe $host 'mkdir -p /home /downloads'
+                #sshe $host '/usr/sbin/useradd -s/bin/bash -px -M nsproul'
+                tar.drop.unix_min $TMP/drop.unix_min
+                scpe              $TMP/drop.unix_min.tar.gz $host:/tmp/drop.unix_min.tar.gz
+                (
+                echo tar xzf  /tmp/drop.unix_min.tar.gz
+                echo rm       /tmp/drop.unix_min.tar.gz
+                echo "ln -s dp/i ."
+                echo "bash -x dp/init/setup_unix > setup_unix.out 2>&1"
+                ) | ssh.eval $host
+        ;;
+esac
+exit
+sh -x $DROP/init/setup.remote 100 o100.us.oracle.com
+exit
+export host=ec2-54-214-82-4.us-west-2.compute.amazonaws.com
+export plat=Linux
+export user=ec2-user
+sh -x $DROP/init/setup.remote a0 $host
+exit
+bx $DROP/init/setup.remote lt
+exit
+bx $DROP/init/setup.remote o99 nsproul-pc.us.oracle.com win
+exit
+bx $DROP/init/setup.remote nv nbox.u Linux plumtree
+exit
+bx $DROP/init/setup.remote o71 o71 win
+exit
+bx $DROP/init/setup.remote gce2 162.222.176.130 Linux
+exit
+bx $DROP/init/setup.remote o89 10.148.118.100
+exit
+$DROP/init/setup.remote mrc slc10nni.us.oracle.com
+exit
+$DROP/init/setup.remote lt3 192.168.1.140
+exit
+bx $dp/init/setup.remote zck slc10zck.us.oracle.com
+exit
+bx $dp/init/setup.remote zck slc10yyb.us.oracle.com

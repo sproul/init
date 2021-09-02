@@ -1,0 +1,3 @@
+:
+mkdir -p $HOME/tmp
+bash -x $dp/init/scripts/init_home.sh

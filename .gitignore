@@ -1,0 +1,14 @@
+*.bak
+*.new
+*.old
+*exe.stackdump
+*.log.txt
+*-CONFLICT-*
+LS
+midnight.*
+*.log
+ui.htm
+midnight
+.#*
+.unison.*
+*.original

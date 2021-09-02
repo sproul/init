@@ -1,0 +1,15 @@
+Thank you for your purchase of TP-LINK products! The releases of this disk is 
+shown below:
+================================================================================
+
+P/N: CD176A2	
+Version: 1.0		
+Date: 2013-3-15
+
+- First release.
+
+================================================================================
+New versions of the Driver or User Guide may be released. Please pay attention
+to our website for the new versions.
+
+Website: http://www.tp-link.com

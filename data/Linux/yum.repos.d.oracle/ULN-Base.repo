@@ -1,0 +1,77 @@
+[ol6_latest]
+name=Oracle Linux $releasever Latest ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/latest/$basearch/
+gpgcheck=1
+enabled=1
+
+[ol6_addons]
+name=Oracle Linux $releasever Add ons ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/addons/$basearch/
+gpgcheck=1
+enabled=1
+
+[ol6_Dtrace_BETA]
+name=Dtrace for Oracle Linux $releasever ($basearch) - Beta release
+baseurl=http://uln-internal.oracle.com/uln/BETA/OracleLinux/OL6/Dtrace/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_UEK_latest]
+name=Latest Unbreakable Enterprise Kernel for Oracle Linux $releasever ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/UEK/latest/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_UEK_base]
+name=Unbreakable Enterprise Kernel for Oracle Linux $releasever ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/UEK/base/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_ga_base]
+name=Oracle Linux $releasever GA installation media copy ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/0/base/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_ga_patch]
+name=Oracle Linux $releasever GA Patch ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/0/patch/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_u1_base]
+name=Oracle Linux $releasever Update 1 installation media copy ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/1/base/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_u1_patch]
+name=Oracle Linux $releasever Update 1 Patch ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/1/patch/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_u2_base]
+name=Oracle Linux $releasever Update 2 installation media copy ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/2/base/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_u2_patch]
+name=Oracle Linux $releasever Update 2 Patch ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/2/patch/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_u3_base]
+name=Oracle Linux $releasever Update 3 installation media copy ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/3/base/$basearch/
+gpgcheck=1
+enabled=0
+
+[ol6_u3_patch]
+name=Oracle Linux $releasever Update 3 Patch ($basearch)
+baseurl=http://uln-internal.oracle.com/uln/OracleLinux/OL6/3/patch/$basearch/
+gpgcheck=1
+enabled=0

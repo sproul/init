@@ -1,0 +1,185 @@
+# !/bin/bash -x
+# first on established machine:               setup.remote
+# !       init.done_for_this_ lm host
+# or
+# !       init.done_for_this_host datacenter
+# # if finished, then send this line
+# while [ -n "$1" ]; do
+# case "$1" in
+# -public_hostname)
+# shift
+# public_hostname=$1
+# shift
+# ;;
+# *)
+# break
+# ;;
+# esac
+# done
+# $DROP/init/setup_common
+# if [ -n "$public_hostname" ]; then
+# printf $public_hostname > /public_hostname
+# fi
+# touch $TMP/cron.`hostname`.daily.out # stop lst's complaining
+# case $USER in
+# root)
+# ln -s /root /home/root
+# export HOME=/home/root
+# if which yum > /dev/null 2>&1; then
+# yumapt=yum
+# else
+# export DEBIAN_FRONTEND=noninteractive
+# yumapt=apt-get
+# apt-get -y update
+# apt-get -y install psmisc       # to get killall
+# apt-get -y install dnsutils     # to get nslookup
+# apt-get -y install build-essential      # to get make
+# fi
+# $yumapt -y update
+# $yumapt -y install curl
+# $yumapt -y install mlocate
+# $yumapt -y install emacs ruby
+# $yumapt -y install python
+# emacs.init.lisp
+# chsh -s /bin/bash root
+# updatedb
+# dp/bin/localtime.tz.set America/Los_Angeles
+# bx denyhosts.init
+# ;;
+# esac
+# case `hostname` in
+# ip-*)
+# aws=yes
+# case $USER in
+# root)
+# cd $HOME/.ssh
+# mv authorized_keys authorized_keys.old
+# cp ~ec2-user/.ssh/authorized_keys .
+# ssh.ck
+# ;;
+# esac
+# ;;
+# esac
+# ln -s $DROP/home/.curlrc $HOME/.curlrc
+# install_thunderbird()
+# {
+# pause 'thunderbird installed?'
+# thunderbird_init_from_Drop
+# /cygdrive/c/downloads/ms/Microsoft_Office_2000_Premium/setup.exe
+# if [ -n "thunderbird_wanted" ]; then
+# thunderbird_init_from_Drop
+# fi
+# }
+# if [ -z "$DROP"]; then
+# export DROP=$HOME/dp
+# export PATH=$DROP/bin:$PATH
+# fi
+# honk installs...
+# ls -1d $HOME/dp/init/downloads/*
+# date
+# cp -pr $DROP/home/.chef $HOME/.chef
+# if [ "$USER" = "root" ]; then
+# $DROP/bin/localtime.tz.set America/Los_Angeles
+# if [ -n "$aws" ]; then
+# home=/home/ec2-user
+# link_to_drop=yes
+# elif [ -d /home/nsproul ]; then
+# home=/home/nsproul
+# link_to_drop=yes
+# else
+# home=/home/root
+# fi
+# if [ -n "$link_to_drop" ]; then
+# ln -s $home/dp /root
+# fi
+# mkdir -p /home
+# ln -s /root /home/root
+# ln -s $home/dp/i /root
+# cx    $home/dp/i
+# cd "$home"
+# if [ -f tmp ]; then
+# rm tmp
+# fi
+# if [ -d /mnt/tmp_from_parent ]; then
+# this is a vagrant VM -- tie ~/tmp to the host ~/tmp so that my emacs
+# tags work
+# rm -rf tmp
+# ln -s /mnt/tmp_from_parent .
+# cat $DROP/data/HOSTS >> /etc/hosts      # main point of this is to be
+# able to resolve the parent
+# else
+# mkdir -p $home/tmp
+# fi
+# mkdir -p /downloads
+# ln -s /downloads $DOWNLOADS
+# if [ ! -f /root/.profile.old ]; then
+# mv /root/.profile /root/.profile.old
+# fi
+# echo ". $home/dp/home/.profile" > /root/.profile
+# if [ ! -f /root/.bashrc.old ]; then
+# mv /root/.bashrc /root/.bashrc.old
+# fi
+# echo ". $home/dp/home/.profile" > /root/.bashrc
+# z=/etc/sysconfig/iptables
+# if [ -f "$z" ]; then
+# diff $z $drop/init/data/Linux/etc__sysconfig__iptables
+# mv $z $z.old
+# cp -p $DROP/init/data/Linux/etc__sysconfig__iptables $z
+# /etc/init.d/iptables restart
+# fi
+# else
+# mkdir -p $DOWNLOADS
+# mkdir -p $TMP
+# fi
+# touch $HOME/.hushlogin
+# case `hostname` in
+# monr*)
+# (
+# cd /cygdrive/c/Windows/System32/inetsrv/
+# ./appcmd set config /section:asp
+# /limits.maxRequestEntityAllowed:104857600
+# )
+# ;;
+# o100*)
+# rmdir /etc/yum.repos.d
+# scpe -rp w:dp/init/data/Linux/yum.repos.d.oracle /etc/yum.repos.d
+# yum --assumeyes install VirtualBox-4.2
+# browser
+# 'http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/OVAB-OVM+Demo+Environment+Using+VirtualBox'
+# ;;
+# esac
+# if [ -n "`is_home_mode`" ]; then
+# if [ -d /cygdrive/c ]; then
+# e home
+# (
+# cd /cygdrive/c/
+# unwrap $DROP/init/data/win/Jts.tar.gz   # get my preferred IB behavior
+# )
+# fi
+# rvm.download_and_setup
+# git.init
+# b https://secure.logmein.com/logmein.msi
+# else
+# echo compare, adjust
+# canonical=$DROP/init/data/Linux/sshd_config
+# if [ -n "$aws" ]; then
+# canonical=$canonical.aws
+# fi
+# echo diff $canonical /etc/ssh/sshd_config
+# diff $canonical /etc/ssh/sshd_config
+# /sbin/service sshd restart
+# fi
+# 
+# honk cron.update.sh
+# bash -x cron.update.sh
+# honk cron.update.sh done
+# 
+# locate.init
+# 
+# skipped this for nbox -- not sure what the dependency is over ruby 1.8.7
+# ruby.init
+# 
+# 
+# exit
+# export HOME=/cygdrive/c/users/nelsons; sh -x $HOME/dp/init/setup_unix
+# 

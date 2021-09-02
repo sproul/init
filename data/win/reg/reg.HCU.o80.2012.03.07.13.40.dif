@@ -1,0 +1,703 @@
+1252c1252,1254
+< HKEY_CURRENT_USER\Software\Google\Update"LastChecked"=dword:4f54ec31
+---
+> HKEY_CURRENT_USER\Software\Google\Update"LastChecked"=dword:4f578f70
+> HKEY_CURRENT_USER\Software\Google\Update"LastInstallerResult"=dword:00000000
+> HKEY_CURRENT_USER\Software\Google\Update"LastInstallerError"=dword:0000001e
+1258,1259c1260,1261
+< HKEY_CURRENT_USER\Software\Google\Update\Clients\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"pv"="17.0.963.56"
+< HKEY_CURRENT_USER\Software\Google\Update\Clients\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}\Commands\quick-enable-cf"CommandLine"="\"C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\17.0.963.56\\Installer\\setup.exe\" --multi-install --verbose-logging --quick-enable-cf"
+---
+> HKEY_CURRENT_USER\Software\Google\Update\Clients\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"pv"="17.0.963.66"
+> HKEY_CURRENT_USER\Software\Google\Update\Clients\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}\Commands\quick-enable-cf"CommandLine"="\"C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\17.0.963.66\\Installer\\setup.exe\" --multi-install --quick-enable-cf"
+1265c1267
+< HKEY_CURRENT_USER\Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}"pv"="17.0.963.56"
+---
+> HKEY_CURRENT_USER\Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}"pv"="17.0.963.66"
+1271,1273c1273,1275
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{430FD4D0-B729-4F61-AA34-91526481799D}"RollCallDayStartSec"=dword:4f547244
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{430FD4D0-B729-4F61-AA34-91526481799D}"LastCheckSuccess"=dword:4f54ec31
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"UninstallString"="C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\17.0.963.56\\Installer\\setup.exe"
+---
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{430FD4D0-B729-4F61-AA34-91526481799D}"RollCallDayStartSec"=dword:4f571543
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{430FD4D0-B729-4F61-AA34-91526481799D}"LastCheckSuccess"=dword:4f578f70
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"UninstallString"="C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\17.0.963.66\\Installer\\setup.exe"
+1277,1279d1278
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"InstallerResult"=dword:00000000
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"InstallerError"=dword:00000000
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"InstallerSuccessLaunchCmdLine"="\"C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\""
+1281c1280
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"pv"="17.0.963.56"
+---
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"pv"="17.0.963.66"
+1283,1285c1282,1287
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"ActivePingDayStartSec"=dword:4f547244
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"RollCallDayStartSec"=dword:4f547244
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"LastCheckSuccess"=dword:4f54ec31
+---
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"ActivePingDayStartSec"=dword:4f571543
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"RollCallDayStartSec"=dword:4f571543
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"LastCheckSuccess"=dword:4f578fb4
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"LastInstallerResult"=dword:00000000
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"LastInstallerError"=dword:0000001e
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"UpdateTime"=dword:4f578fb4
+1291,1292c1293,1294
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"UninstallString"="C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\17.0.963.56\\Installer\\setup.exe"
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"UninstallArguments"=" --uninstall --multi-install --chrome --verbose-logging"
+---
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"UninstallString"="C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\17.0.963.66\\Installer\\setup.exe"
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"UninstallArguments"=" --uninstall --multi-install --chrome"
+1297c1299
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"LastCheckSuccess"=dword:4f54ec31
+---
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"LastCheckSuccess"=dword:4f578f70
+1300,1302c1302,1306
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"lastrun"="12975441700257535"
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"ActivePingDayStartSec"=dword:4f547244
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"RollCallDayStartSec"=dword:4f547244
+---
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"lastrun"="12975612016206723"
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"ActivePingDayStartSec"=dword:4f571543
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"RollCallDayStartSec"=dword:4f571543
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"InstallerResult"=dword:00000000
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463C-AFF1-A69D9E530F96}"InstallerError"=dword:0000001e
+1309c1313
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{D0AB2EBC-931B-4013-9FEB-C9C4C2225C8C}"LastCheckSuccess"=dword:4f54ec31
+---
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{D0AB2EBC-931B-4013-9FEB-C9C4C2225C8C}"LastCheckSuccess"=dword:4f578f70
+1312c1316
+< HKEY_CURRENT_USER\Software\Google\Update\ClientState\{D0AB2EBC-931B-4013-9FEB-C9C4C2225C8C}"RollCallDayStartSec"=dword:4f547244
+---
+> HKEY_CURRENT_USER\Software\Google\Update\ClientState\{D0AB2EBC-931B-4013-9FEB-C9C4C2225C8C}"RollCallDayStartSec"=dword:4f571543
+1317,1319c1321,1338
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily"LastTransmission"=dword:4f54ec31
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"core_start_crash_handler_succeeded"=hex:02,00,00,00,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"core_start_crash_handler_total"=hex:02,00,00,00,00,00,00,00
+---
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily"LastTransmission"=dword:4f578fb5
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Booleans"worker_is_clickonce_disabled"=hex:00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Booleans"worker_is_uac_disabled"=hex:01,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Booleans"worker_is_windows_installing"=hex:00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"goopdate_main"=hex:0b,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"goopdate_constructor"=hex:0b,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"http_cup_trusted"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"http_cup_total"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"worker_app_updates_available"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"worker_update_check_succeeded"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"worker_update_check_total"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"worker_install_execute_total"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"worker_package_cache_put_succeeded"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"worker_package_cache_put_total"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"worker_download_succeeded"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"worker_download_total"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"core_start_crash_handler_succeeded"=hex:03,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"core_start_crash_handler_total"=hex:03,00,00,00,00,00,00,00
+1322,1332d1340
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"goopdate_main"=hex:09,00,00,00,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Counts"goopdate_constructor"=hex:09,00,00,00,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_run_scheduled_task_exit_code"=hex:dd,04,07,80,ff,ff,ff,ff
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_cr_expected_timer_interval_ms"=hex:00,5c,26,05,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_disk_space_available"=hex:00,30,ca,1a,07,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_user_time_ms"=hex:1f,00,00,00,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_kernel_time_ms"=hex:3e,00,00,00,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_uptime_ms"=hex:d5,61,3d,00,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_handle_count"=hex:82,00,00,00,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_peak_working_set"=hex:00,60,6f,00,00,00,00,00
+< HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_working_set"=hex:00,a0,22,00,00,00,00,00
+1335c1343,1354
+< HKEY_CURRENT_USER\Software\IvoSoft\ClassicStartMenu"ItemRanks"=hex:83,87,c0,48,01,00,00,00,fc,c3,c0,92,01,00,00,00,fc,0d,79,df,01,\
+---
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"worker_shell_version"=hex:15,00,b7,00,02,00,01,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_run_scheduled_task_exit_code"=hex:dd,04,07,80,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_cr_expected_timer_interval_ms"=hex:00,5c,26,05,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_disk_space_available"=hex:00,30,ee,2b,06,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_user_time_ms"=hex:0f,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_kernel_time_ms"=hex:2e,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_uptime_ms"=hex:e3,8c,09,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_handle_count"=hex:81,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_peak_working_set"=hex:00,50,70,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"core_working_set"=hex:00,10,29,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\Google\Update\UsageStats\Daily\Integers"windows_sp_major_version"=hex:01,00,00,00,00,00,00,00
+> HKEY_CURRENT_USER\Software\IvoSoft\ClassicStartMenu"ItemRanks"=hex:83,87,c0,48,01,00,00,00,fc,c3,c0,92,01,00,00,00,68,5f,c8,be,01,\
+1342c1361
+< HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}"Version"="6,1,7600,16385"
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}"Version"="6,1,7601,17514"
+1345c1364
+< HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}"Version"="12,0,7600,16667"
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}"Version"="12,0,7601,17514"
+1347c1366
+< HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}"Version"="6,1,7600,16644"
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}"Version"="6,1,7601,17514"
+1374c1393
+< HKEY_CURRENT_USER\Software\Microsoft\Assistance\Client\1.0\Settings"PositionX"=dword:000009a9
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Assistance\Client\1.0\Settings"PositionX"=dword:00000762
+1859c1878
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences"AcceptedPrivacyStatement"=dword:00000001
+---
+> HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences"AcceptedPrivacyStatement"=dword:00000000
+1873c1892
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences"MLSChangeIndexList"=dword:00000060
+---
+> HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences"MLSChangeIndexList"=dword:00000078
+1938d1956
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Preferences"AppColorLimited"=dword:00000000
+1957,1963d1974
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Services\MediaGuide"FriendlyName"="Media Guide"
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Services\MediaGuide"ColorPlayer"="#0063B0"
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Services\MediaGuide"ImageLargeURL"="http://images.windowsmedia.com/svcswitch/mg4_wmp12_30x30_2.png"
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Services\MediaGuide"ImageMenuURL"="http://images.windowsmedia.com/svcswitch/media_guide_16x16.png"
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Services\MediaGuide"Task1ButtonText"="Media Guide"
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Services\MediaGuide"Task1ButtonTip"="Media Guide"
+< HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Services\MediaGuide"Type"=dword:00000001
+1965a1977
+> HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Setup\CreatedLinks"Shortcut0"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Windows Media Player.lnk"
+2000a2013
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{01979c6a-42fa-414c-b8aa-eee2c8202018}.check.100"CheckSetting"=hex:23,00,41,00,43,00,42,00,6c,00,6f,00,62,00,00,00,00,00,00,00,\
+2155a2169
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.bat\OpenWithProgids"batfile"=hex(0):
+2260a2275
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.url\OpenWithProgids"InternetShortcut"=hex(0):
+2303,2304d2317
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{9092aeca-63f9-11e1-ac2b-001aa0c246f5}"Data"=hex:d6,0d,00,00,00,00,00,00,01,00,00,00,04,00,00,00,00,00,00,84,00,00,\
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{9092aeca-63f9-11e1-ac2b-001aa0c246f5}"Generation"=dword:00000002
+2317c2330
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU"MRUList"="bgefadc"
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU"MRUList"="gbefadc"
+2362a2376,2385
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\42k.IP.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\42k.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\71o.IP.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\71o.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\99o.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\nelsons-xp.IP.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\nelsons-xp.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Dragon NaturallySpeaking 10.0\\Dragon NaturallySpeaking 10.0.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Dragon NaturallySpeaking 10.0\\Show Dragon Log.lnk"=dword:00000001
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage\NewShortcuts"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Dragon NaturallySpeaking 10.0\\Dragon NaturallySpeaking Tools\\AutoTranscribe Folder Agent.lnk"=dword:00000001
+2402c2425
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"HRZR_PGYFRFFVBA"=hex:00,00,00,00,6e,00,00,00,8c,01,00,00,ec,ae,39,01,0e,00,00,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"HRZR_PGYFRFFVBA"=hex:00,00,00,00,6f,00,00,00,dd,01,00,00,e1,2d,bd,01,0e,00,00,\
+2404c2427
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.Jvaqbjf.ErzbgrQrfxgbc"=hex:00,00,00,00,0c,00,00,00,11,00,00,00,07,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.Jvaqbjf.ErzbgrQrfxgbc"=hex:00,00,00,00,0c,00,00,00,17,00,00,00,b6,\
+2413c2436
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.Jvaqbjf.PbagebyCnary"=hex:00,00,00,00,00,00,00,00,0b,00,00,00,96,87,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.Jvaqbjf.PbagebyCnary"=hex:00,00,00,00,00,00,00,00,0e,00,00,00,51,ca,\
+2416c2439
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.Jvaqbjf.Furyy.EhaQvnybt"=hex:00,00,00,00,00,00,00,00,00,00,00,00,f2,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.Jvaqbjf.Furyy.EhaQvnybt"=hex:00,00,00,00,00,00,00,00,00,00,00,00,b2,\
+2423c2446
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Puebzr"=hex:00,00,00,00,00,00,00,00,52,00,00,00,76,85,83,00,00,00,80,bf,00,00,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Puebzr"=hex:00,00,00,00,00,00,00,00,68,00,00,00,5c,76,b3,00,00,00,80,bf,00,00,\
+2439c2462
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.Jvaqbjf.Uryccnar"=hex:00,00,00,00,00,00,00,00,03,00,00,00,e2,06,02,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.Jvaqbjf.Uryccnar"=hex:00,00,00,00,00,00,00,00,04,00,00,00,6f,07,02,\
+2445c2468
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\zfgfp.rkr"=hex:00,00,00,00,04,00,00,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\zfgfp.rkr"=hex:00,00,00,00,05,00,00,\
+2448a2472,2479
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"P:\\Hfref\\aryfbaf\\jbex\\rpyvcfr\\rpyvcfr-wnin-vaqvtb-FE2-jva32-k86_64\\rpyvcfr.rkr"=hex:00,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Rpyvcfr"=hex:00,00,00,00,00,00,00,00,05,00,00,00,b4,59,01,00,00,00,80,bf,00,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"P:\\Hfref\\aryfbaf\\Qebcobk\\ova\\jva\\cfxvyy.rkr"=hex:00,00,00,00,00,00,00,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\FCErivrj\\fcerivrj.rkr"=hex:00,00,00,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.NhgbTrarengrq.{O354561N-664R-S74O-1O58-58O5O82O8725}"=hex:00,00,00,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.NhgbTrarengrq.{8Q9Q5426-3145-O9P6-R072-O3611160NN67}"=hex:00,00,00,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.NhgbTrarengrq.{O90NQ97R-5PQ0-N773-6NN2-8O77032R3N48}"=hex:00,00,00,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count"Zvpebfbsg.NhgbTrarengrq.{P7O1N2N1-P9S3-Q7SO-1P82-7310399N9Q5S}"=hex:00,00,00,\
+2451c2482
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{F4E57C4B-2036-45F0-A9AB-443BCFE33D9F}\Count"HRZR_PGYFRFFVBA"=hex:00,00,00,00,64,00,00,00,00,00,00,00,64,00,00,00,0e,00,00,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{F4E57C4B-2036-45F0-A9AB-443BCFE33D9F}\Count"HRZR_PGYFRFFVBA"=hex:00,00,00,00,66,00,00,00,00,00,00,00,66,00,00,00,0e,00,00,\
+2463a2495
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{F4E57C4B-2036-45F0-A9AB-443BCFE33D9F}\Count"P:\\Hfref\\aryfbaf\\Qebcobk\\vavg\\fgneg_zrah\\Cebtenzf\\Fgneghc\\a_qnrzba.ong.yax"=hex:00,\
+2494,2495c2526,2527
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{449D0D6E-2412-4E61-B68F-1CB625CD9E52}\iexplore"Count"=dword:0000000b
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{449D0D6E-2412-4E61-B68F-1CB625CD9E52}\iexplore"Time"=hex:dc,07,03,00,01,00,05,00,12,00,1e,00,23,00,0c,00
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{449D0D6E-2412-4E61-B68F-1CB625CD9E52}\iexplore"Count"=dword:00000011
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{449D0D6E-2412-4E61-B68F-1CB625CD9E52}\iexplore"Time"=hex:dc,07,03,00,03,00,07,00,15,00,27,00,21,00,8a,00
+2675c2707
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections"SavedLegacySettings"=hex:46,00,00,00,17,00,00,00,09,00,00,00,00,00,00,00,00,\
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections"SavedLegacySettings"=hex:46,00,00,00,18,00,00,00,09,00,00,00,00,00,00,00,00,\
+2947a2980
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer"NoDriveTypeAutoRun"=dword:00000091
+3029a3063,3069
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached"{CEEFEA1B-3E29-4EF1-B34C-FEC79C4F70AF} {01B8912E-05CD-4EB2-8B4B-9112E8C2A8BE} 0xFFFF"=hex:01,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached"{FBF23B40-E3F0-101B-8488-00AA003E56F8} {886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99} 0xFFFF"=hex:01,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached"{FBF23B40-E3F0-101B-8488-00AA003E56F8} {000214E9-0000-0000-C000-000000000046} 0xFFFF"=hex:01,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached"{7444C719-39BF-11D1-8CD9-00C04FC29D45} {000214E9-0000-0000-C000-000000000046} 0xFFFF"=hex:01,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached"{3EA48300-8CF6-101B-84FB-666CCB9BCD32} {000214E9-0000-0000-C000-000000000046} 0xFFFF"=hex:01,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached"{513D916F-2A8E-4F51-AEAB-0CBC76FB1AF8} {000214E9-0000-0000-C000-000000000046} 0xFFFF"=hex:01,\
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached"{1D27F844-3A1F-4410-85AC-14651078412D} {000214E4-0000-0000-C000-000000000046} 0xFFFF"=hex:01,\
+3067c3107
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome"UninstallString"="\"C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\17.0.963.56\\Installer\\setup.exe\" --uninstall --multi-install --chrome --verbose-logging"
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome"UninstallString"="\"C:\\Users\\x\\AppData\\Local\\Google\\Chrome\\Application\\17.0.963.66\\Installer\\setup.exe\" --uninstall --multi-install --chrome"
+3073,3074c3113,3114
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome"Version"="17.0.963.56"
+< HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome"DisplayVersion"="17.0.963.56"
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome"Version"="17.0.963.66"
+> HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome"DisplayVersion"="17.0.963.66"
+3190c3230
+< HKEY_CURRENT_USER\Software\Microsoft\Windows Mail"LastRun"=hex:2b,44,dd,88,0b,f7,cc,01
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows Mail"LastRun"=hex:66,af,ec,41,8b,fc,cc,01
+3222c3262
+< HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon"BuildNumber"=dword:00001db0
+---
+> HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon"BuildNumber"=dword:00001db1
+3270a3311
+> HKEY_CURRENT_USER\Software\Sysinternals\PsKill"EulaAccepted"=dword:00000001
+3277c3318
+< HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}"Version"="6,1,7600,16385"
+---
+> HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}"Version"="6,1,7601,17514"
+3280c3321
+< HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}"Version"="12,0,7600,16667"
+---
+> HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}"Version"="12,0,7601,17514"
+3282c3323
+< HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}"Version"="6,1,7600,16644"
+---
+> HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}"Version"="6,1,7601,17514"
+3439a3481,3773
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\NetworkExplorer.dll,-1"="Network"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\ieframe.dll,-10046"="Internet Shortcut"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\notepad.exe,-469"="Text Document"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Common Files\\System\\wab32res.dll,-4602"="Contact file"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Common Files\\system\\wab32res.dll,-10203"="Contact"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@\"C:\\Program Files\\Windows Journal\\Journal.exe\",-3072"="Journal Document"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Windows NT\\Accessories\\WORDPAD.EXE,-190"="Rich Text Document"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\zipfldr.dll,-10195"="Compressed (zipped) Folder"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@sendmail.dll,-21"="Desktop (create shortcut)"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@zipfldr.dll,-10148"="Compressed (zipped) folder"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@sendmail.dll,-4"="Mail recipient"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\FXSRESM.dll,-120"="Fax recipient"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\prnfldr.dll,-8036"="Printers"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\netshell.dll,-1200"="Network Connections"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\wmploc.dll,-128"="Microsoft Windows Media Player"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\themeui.dll,-2682"="Themes Setup"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\AccessibilityCpl.dll,-10"="Ease of Access Center"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\ie4uinit.exe,-737"="Internet Explorer (No Add-ons)"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\displayswitch.exe,-320"="Connect to a Projector"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Common Files\\Microsoft Shared\\Ink\\mip.exe,-291"="Math Input Panel"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\mblctr.exe,-1008"="Windows Mobility Center"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\NetProjW.dll,-501"="Connect to a Network Projector"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\mstsc.exe,-4000"="Remote Desktop Connection"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\SnippingTool.exe,-15051"="Snipping Tool"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\SoundRecorder.exe,-100"="Sound Recorder"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\SNTSearch.dll,-505"="Sticky Notes"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\SyncCenter.dll,-3000"="Sync Center"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\OobeFldr.dll,-33056"="Getting Started"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\Speech\\SpeechUX\\sapi.cpl,-5555"="Windows Speech Recognition"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\dfrgui.exe,-103"="Disk Defragmenter"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\wdc.dll,-10030"="Resource Monitor"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\msinfo32.exe,-100"="System Information"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\rstrui.exe,-100"="System Restore"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\miguiresource.dll,-201"="Task Scheduler"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\migwiz\\wet.dll,-591"="Windows Easy Transfer Reports"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\migwiz\\wet.dll,-588"="Windows Easy Transfer"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Common Files\\Microsoft Shared\\Ink\\ShapeCollector.exe,-298"="Personalize Handwriting Recognition"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Common Files\\Microsoft Shared\\Ink\\TipTsf.dll,-80"="Tablet PC Input Panel"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Windows Journal\\Journal.exe,-3074"="Windows Journal"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe,-102"="Windows PowerShell ISE (x86)"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe,-101"="Windows PowerShell ISE"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\comres.dll,-3410"="Component Services"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\mycomput.dll,-300"="Computer Management"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\odbcint.dll,-1310"="Data Sources (ODBC)"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\miguiresource.dll,-101"="Event Viewer"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\iscsicpl.dll,-5001"="iSCSI Initiator"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\MdSched.exe,-4001"="Windows Memory Diagnostic"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\wdc.dll,-10021"="Performance Monitor"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\pmcsnap.dll,-700"="Print Management"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\wsecedit.dll,-718"="Local Security Policy"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\filemgmt.dll,-2204"="Services"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\msconfig.exe,-126"="System Configuration"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\AuthFWGP.dll,-20"="Windows Firewall with Advanced Security"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\gameux.dll,-10082"="Games Explorer"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\sdcpl.dll,-101"="Backup and Restore"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\recdisc.exe,-2000"="Create a System Repair Disc"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\msra.exe,-100"="Windows Remote Assistance"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\DeviceCenter.dll,-1000"="Devices and Printers"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\explorer.exe,-7021"="Help and Support"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\p2pcollab.dll,-8042"="Peer to Peer Trust"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\dnsapi.dll,-103"="Domain Name System (DNS) Server Trust"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@\"%windir%\\System32\\ie4uinit.exe\",-738"="Start Internet Explorer without ActiveX controls or browser extensions."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@\"%systemroot%\\system32\\windowspowershell\\v1.0\\powershell.exe\",-111"="Performs object-based (command-line) functions"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\wpccpl.dll,-100"="Parental Controls"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@wucltux.dll,-71"="Windows Update"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\qagentrt.dll,-10"="System Health Authentication"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\fveui.dll,-843"="BitLocker Drive Encryption"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\fveui.dll,-844"="BitLocker Data Recovery Agent"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\acppage.dll,-6002"="Windows Batch File"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\syswow64\\unregmp2.exe,-155"="Play digital media including music, videos, CDs, and DVDs."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\pmcsnap.dll,-710"="Manages local printers and remote print servers."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\FirewallControlPanel.dll,-1"="Windows Firewall"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Common Files\\system\\wab32res.dll,-10100"="Contacts"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\aelupsvc.dll,-2"="Processes application compatibility cache requests for applications as they are launched"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\Alg.exe,-113"="Provides support for 3rd party protocol plug-ins for Internet Connection Sharing"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\appidsvc.dll,-101"="Determines and verifies the identity of an application. Disabling this service will prevent AppLocker from being enforced."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\appinfo.dll,-101"="Facilitates the running of interactive applications with additional administrative privileges.  If this service is stopped, users will be unable to launch applications with the additional administrative privileges they may require to perform desired user tasks."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@appmgmts.dll,-3251"="Processes installation, removal, and enumeration requests for software deployed through Group Policy. If the service is disabled, users will be unable to install, remove, or enumerate software deployed through Group Policy. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\audiosrv.dll,-205"="Manages audio devices for the Windows Audio service.  If this service is stopped, audio devices and effects will not function properly.  If this service is disabled, any services that explicitly depend on it will fail to start"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\audiosrv.dll,-201"="Manages audio for Windows-based programs.  If this service is stopped, audio devices and effects will not function properly.  If this service is disabled, any services that explicitly depend on it will fail to start"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\AxInstSV.dll,-104"="Provides User Account Control validation for the installation of ActiveX controls from the Internet and enables management of ActiveX control installation based on Group Policy settings. This service is started on demand and if disabled the installation of ActiveX controls will behave according to default browser settings."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\bdesvc.dll,-101"="BDESVC hosts the BitLocker Drive Encryption service. BitLocker Drive Encryption provides secure startup for the operating system, as well as full volume encryption for OS, fixed or removable volumes. This service allows BitLocker to prompt users for various actions related to their volumes when mounted, and unlocks volumes automatically without user interaction. Additionally, it stores recovery information to Active Directory, if available, and, if necessary, ensures the most recent recovery certificates are used.  Stopping or disabling the service would prevent users from leveraging this functionality."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\bfe.dll,-1002"="The Base Filtering Engine (BFE) is a service that manages firewall and Internet Protocol security (IPsec) policies and implements user mode filtering. Stopping or disabling the BFE service will significantly reduce the security of the system. It will also result in unpredictable behavior in IPsec management and firewall applications."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\qmgr.dll,-1001"="Transfers files in the background using idle network bandwidth. If the service is disabled, then any applications that depend on BITS, such as Windows Update or MSN Explorer, will be unable to automatically download programs and other information."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\browser.dll,-101"="Maintains an updated list of computers on the network and supplies this list to computers designated as browsers. If this service is stopped, this list will not be updated or maintained. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\bthserv.dll,-102"="The Bluetooth service supports discovery and association of remote Bluetooth devices.  Stopping or disabling this service may cause already installed Bluetooth devices to fail to operate properly and prevent new devices from being discovered or associated."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\certprop.dll,-12"="Copies user certificates and root certificates from smart cards into the current user's certificate store, detects when a smart card is inserted into a smart card reader, and, if needed, installs the smart card Plug and Play minidriver."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@comres.dll,-948"="Manages the configuration and tracking of Component Object Model (COM)+-based components. If the service is stopped, most COM+-based components will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\cryptsvc.dll,-1002"="Provides four management services: Catalog Database Service, which confirms the signatures of Windows files and allows new programs to be installed; Protected Root Service, which adds and removes Trusted Root Certification Authority certificates from this computer; Automatic Root Certificate Update Service, which retrieves root certificates from Windows Update and enable scenarios such as SSL; and Key Service, which helps enroll this computer for certificates. If this service is stopped, these management services will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\cscsvc.dll,-201"="The Offline Files service performs maintenance activities on the Offline Files cache, responds to user logon and logoff events, implements the internals of the public API, and dispatches interesting events to those interested in Offline Files activities and changes in cache state."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@oleres.dll,-5013"="The DCOMLAUNCH service launches COM and DCOM servers in response to object activation requests. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the DCOMLAUNCH service running."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\defragsvc.dll,-102"="Provides Disk Defragmentation Capabilities."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\dhcpcore.dll,-101"="Registers and updates IP addresses and DNS records for this computer. If this service is stopped, this computer will not receive dynamic IP addresses and DNS updates. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\dnsapi.dll,-102"="The DNS Client service (dnscache) caches Domain Name System (DNS) names and registers the full computer name for this computer. If the service is stopped, DNS names will continue to be resolved. However, the results of DNS name queries will not be cached and the computer's name will not be registered. If the service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\dot3svc.dll,-1103"="The Wired AutoConfig (DOT3SVC) service is responsible for performing IEEE 802.1X authentication on Ethernet interfaces. If your current wired network deployment enforces 802.1X authentication, the DOT3SVC service should be configured to run for establishing Layer 2 connectivity and/or providing access to network resources. Wired networks that do not enforce 802.1X authentication are unaffected by the DOT3SVC service."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\dps.dll,-501"="The Diagnostic Policy Service enables problem detection, troubleshooting and resolution for Windows components.  If this service is stopped, diagnostics will no longer function."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\eapsvc.dll,-2"="The Extensible Authentication Protocol (EAP) service provides network authentication in such scenarios as 802.1x wired and wireless, VPN, and Network Access Protection (NAP).  EAP also provides application programming interfaces (APIs) that are used by network access clients, including wireless and VPN clients, during the authentication process.  If you disable this service, this computer is prevented from accessing networks that require EAP authentication."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\efssvc.dll,-101"="Provides the core file encryption technology used to store encrypted files on NTFS file system volumes. If this service is stopped or disabled, applications will be unable to access encrypted files."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\ehome\\ehrecvr.exe,-102"="Windows Media Center Service for TV and FM broadcast reception"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\ehome\\ehsched.exe,-102"="Starts and stops recording of TV programs within Windows Media Center"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\wevtsvc.dll,-201"="This service manages events and event logs. It supports logging events, querying events, subscribing to events, archiving event logs, and managing event metadata. It can display events in both XML and plain text format. Stopping this service may compromise security and reliability of the system."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@comres.dll,-2451"="Supports System Event Notification Service (SENS), which provides automatic distribution of events to subscribing Component Object Model (COM) components. If the service is stopped, SENS will close and will not be able to provide logon and logoff notifications. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\fxsresm.dll,-122"="Enables you to send and receive faxes, utilizing fax resources available on this computer or on the network."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\fdPHost.dll,-101"="The FDPHOST service hosts the Function Discovery (FD) network discovery providers. These FD providers supply network discovery services for the Simple Services Discovery Protocol (SSDP) and Web Services Z Discovery (WS-D) protocol. Stopping or disabling the FDPHOST service will disable network discovery for these protocols when using FD. When this service is unavailable, network services using FD and relying on these discovery protocols will be unable to find network devices or resources."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\fdrespub.dll,-101"="Publishes this computer and resources attached to this computer so they can be discovered over the network.  If this service is stopped, network resources will no longer be published and they will not be discovered by other computers on the network."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\FntCache.dll,-101"="Optimizes performance of applications by caching commonly used font data. Applications will start this service if it is not already running. It can be disabled, though doing so will degrade application performance."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\PresentationHost.exe,-3310"="Optimizes performance of Windows Presentation Foundation (WPF) applications by caching commonly used font data. WPF applications will start this service if it is not already running. It can be disabled, though doing so will degrade the performance of WPF applications."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@gpapi.dll,-113"="The service is responsible for applying settings configured by administrators for the computer and users through the Group Policy component. If the service is stopped or disabled, the settings will not be applied and applications and components will not be manageable through Group Policy. Any components or applications that depend on the Group Policy component might not be functional if the service is stopped or disabled."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\hidserv.dll,-102"="Enables generic input access to Human Interface Devices (HID), which activates and maintains the use of predefined hot buttons on keyboards, remote controls, and other multimedia devices. If this service is stopped, hot buttons controlled by this service will no longer function. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\kmsvc.dll,-7"="Provides X.509 certificate and key management services for the Network Access Protection Agent (NAPAgent). Enforcement technologies that use X.509 certificates may not function properly without this service"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\ListSvc.dll,-101"="Makes local computer changes associated with configuration and maintenance of the homegroup-joined computer. If this service is stopped or disabled, your computer will not work properly in a homegroup and your homegroup might not work properly. It is recommended that you keep this service running."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\provsvc.dll,-101"="Performs networking tasks associated with configuration and maintenance of homegroups. If this service is stopped or disabled, your computer will be unable to detect other homegroups and your homegroup might not work properly. It is recommended that you keep this service running."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\Microsoft.NET\\Framework64\\v3.0\\Windows Communication Foundation\\ServiceModelInstallRC.dll,-8192"="Securely enables the creation, management, and disclosure of digital identities."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\ikeext.dll,-502"="The IKEEXT service hosts the Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) keying modules. These keying modules are used for authentication and key exchange in Internet Protocol security (IPsec). Stopping or disabling the IKEEXT service will disable IKE and AuthIP key exchange with peer computers. IPsec is typically configured to use IKE or AuthIP; therefore, stopping or disabling the IKEEXT service might result in an IPsec failure and might compromise the security of the system. It is strongly recommended that you have the IKEEXT service running."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\IPBusEnum.dll,-103"="The PnP-X bus enumerator service manages the virtual network bus. It discovers network connected devices using the SSDP/WS discovery protocols and gives them presence in PnP. If this service is stopped or disabled, presence of NCD devices will not be maintained in PnP. All pnpx based scenarios will stop functioning."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\iphlpsvc.dll,-501"="Provides tunnel connectivity using IPv6 transition technologies (6to4, ISATAP, Port Proxy, and Teredo), and IP-HTTPS. If this service is stopped, the computer will not have the enhanced connectivity benefits that these technologies offer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@keyiso.dll,-101"="The CNG key isolation service is hosted in the LSA process. The service provides key process isolation to private keys and associated cryptographic operations as required by the Common Criteria. The service stores and uses long-lived keys in a secure process complying with Common Criteria requirements."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@comres.dll,-2947"="Coordinates transactions between the Distributed Transaction Coordinator (MSDTC) and the Kernel Transaction Manager (KTM). If it is not needed, it is recommended that this service remain stopped. If it is needed, both MSDTC and KTM will start this service automatically. If this service is disabled, any MSDTC transaction interacting with a Kernel Resource Manager will fail and any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\srvsvc.dll,-101"="Supports file, print, and named-pipe sharing over the network for this computer. If this service is stopped, these functions will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\wkssvc.dll,-101"="Creates and maintains client network connections to remote servers using the SMB protocol. If this service is stopped, these connections will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\lltdres.dll,-2"="Creates a Network Map, consisting of PC and device topology (connectivity) information, and metadata describing each PC and device.  If this service is disabled, the Network Map will not function properly."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\lmhsvc.dll,-102"="Provides support for the NetBIOS over TCP/IP (NetBT) service and NetBIOS name resolution for clients on the network, therefore enabling users to share files, print, and log on to the network. If this service is stopped, these functions might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\ehome\\ehres.dll,-15502"="Allows Media Center Extenders to locate and connect to the computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\mmcss.dll,-101"="Enables relative prioritization of work based on system-wide task priorities. This is intended mainly for multimedia applications.  If this service is stopped, individual tasks resort to their default priority."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\FirewallAPI.dll,-23091"="Windows Firewall helps protect your computer by preventing unauthorized users from gaining access to your computer through the Internet or a network."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@comres.dll,-2798"="Coordinates transactions that span multiple resource managers, such as databases, message queues, and file systems. If this service is stopped, these transactions will fail. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\iscsidsc.dll,-5001"="Manages Internet SCSI (iSCSI) sessions from this computer to remote iSCSI target devices. If this service is stopped, this computer will not be able to login or access iSCSI targets. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\msimsg.dll,-32"="Adds, modifies, and removes applications provided as a Windows Installer (*.msi) package. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\qagentrt.dll,-7"="The Network Access Protection (NAP) agent service collects and manages health information for client computers on a network. Information collected by NAP agent is used to make sure that the client computer has the required software and settings. If a client computer is not compliant with health policy, it can be provided with restricted network access until its configuration is updated. Depending on the configuration of health policy, client computers might be automatically updated so that users quickly regain full network access without having to manually update their computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\netlogon.dll,-103"="Maintains a secure channel between this computer and the domain controller for authenticating users and services. If this service is stopped, the computer may not authenticate users and services and the domain controller cannot register DNS records. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\netman.dll,-110"="Manages objects in the Network and Dial-Up Connections folder, in which you can view both local area network and remote connections."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\netprofm.dll,-203"="Identifies the networks to which the computer has connected, collects and stores properties for these networks, and notifies applications when these properties change."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\Microsoft.NET\\Framework64\\v3.0\\Windows Communication Foundation\\ServiceModelInstallRC.dll,-8200"="Provides ability to share TCP ports over the net.tcp protocol."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\nlasvc.dll,-2"="Collects and stores configuration information for the network and notifies programs when this information is modified. If this service is stopped, configuration information might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\nsisvc.dll,-201"="This service delivers network notifications (e.g. interface addition/deleting etc) to user mode clients. Stopping this service will cause loss of network connectivity. If this service is disabled, any other services that explicitly depend on this service will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\pnrpsvc.dll,-8005"="Provides identity services for the Peer Name Resolution Protocol (PNRP) and Peer-to-Peer Grouping services.  If disabled, the Peer Name Resolution Protocol (PNRP) and Peer-to-Peer Grouping services may not function, and some applications, such as HomeGroup and Remote Assistance, may not function correctly."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\p2psvc.dll,-8007"="Enables multi-party communication using Peer-to-Peer Grouping.  If disabled, some applications, such as HomeGroup, may not function."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\pcasvc.dll,-2"="This service provides support for the Program Compatibility Assistant (PCA).  PCA monitors programs installed and run by the user and detects known compatibility problems. If this service is stopped, PCA will not function properly."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\peerdistsvc.dll,-9001"="This service caches network content from peers on the local subnet."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\SysWow64\\perfhost.exe,-1"="Enables remote users and 64-bit processes to query performance counters provided by 32-bit DLLs. If this service is stopped, only local users and 32-bit processes will be able to query performance counters provided by 32-bit DLLs."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\pla.dll,-501"="Performance Logs and Alerts Collects performance data from local or remote computers based on preconfigured schedule parameters, then writes the data to a log or triggers an alert. If this service is stopped, performance information will not be collected. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\umpnpmgr.dll,-101"="Enables a computer to recognize and adapt to hardware changes with little or no user input. Stopping or disabling this service will result in system instability."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\pnrpauto.dll,-8003"="This service publishes a machine name using the Peer Name Resolution Protocol.  Configuration is managed via the netsh context 'p2p pnrp peer' "
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\pnrpsvc.dll,-8001"="Enables serverless peer name resolution over the Internet using the Peer Name Resolution Protocol (PNRP). If disabled, some peer-to-peer and collaborative applications, such as Remote Assistance, may not function."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\polstore.dll,-5011"="Internet Protocol security (IPsec) supports network-level peer authentication, data origin authentication, data integrity, data confidentiality (encryption), and replay protection.  This service enforces IPsec policies created through the IP Security Policies snap-in or the command-line tool \"netsh ipsec\".  If you stop this service, you may experience network connectivity issues if your policy requires that connections use IPsec.  Also,remote management of Windows Firewall is not available when this service is stopped."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\umpo.dll,-101"="Manages power policy and power policy notification delivery."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\profsvc.dll,-301"="This service is responsible for loading and unloading user profiles. If this service is stopped or disabled, users will no longer be able to successfully logon or logoff, applications may have problems getting to users' data, and components registered to receive profile event notifications will not receive them."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\psbase.dll,-301"="Provides protected storage for sensitive data, such as passwords, to prevent access by unauthorized services, processes, or users."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\qwave.dll,-2"="Quality Windows Audio Video Experience (qWave) is a networking platform for Audio Video (AV) streaming applications on IP home networks. qWave enhances AV streaming performance and reliability by ensuring network quality-of-service (QoS) for AV applications. It provides mechanisms for admission control, run time monitoring and enforcement, application feedback, and traffic prioritization."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%Systemroot%\\system32\\rasauto.dll,-201"="Creates a connection to a remote network whenever a program references a remote DNS or NetBIOS name or address."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%Systemroot%\\system32\\rasmans.dll,-201"="Manages dial-up and virtual private network (VPN) connections from this computer to the Internet or other remote networks. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%Systemroot%\\system32\\mprdim.dll,-201"="Offers routing services to businesses in local area and wide area network environments."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@regsvc.dll,-2"="Enables remote users to modify registry settings on this computer. If this service is stopped, the registry can be modified only by users on this computer. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%windir%\\system32\\RpcEpMap.dll,-1002"="Resolves RPC interfaces identifiers to transport endpoints. If this service is stopped or disabled, programs using Remote Procedure Call (RPC) services will not function properly."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\Locator.exe,-3"="In Windows 2003 and earlier versions of Windows, the Remote Procedure Call (RPC) Locator service manages the RPC name service database. In Windows Vista and later versions of Windows, this service does not provide any functionality and is present for application compatibility."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@oleres.dll,-5011"="The RPCSS service is the Service Control Manager for COM and DCOM servers. It performs object activations requests, object exporter resolutions and distributed garbage collection for COM and DCOM servers. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the RPCSS service running"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\samsrv.dll,-2"="The startup of this service signals other services that the Security Accounts Manager (SAM) is ready to accept requests.  Disabling this service will prevent other services in the system from being notified when the SAM is ready, which may in turn cause those services to fail to start correctly. This service should not be disabled."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\SCardSvr.dll,-5"="Manages access to smart cards read by this computer. If this service is stopped, this computer will be unable to read smart cards. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\schedsvc.dll,-101"="Enables a user to configure and schedule automated tasks on this computer. The service also hosts multiple Windows system-critical tasks. If this service is stopped or disabled, these tasks will not be run at their scheduled times. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\certprop.dll,-14"="Allows the system to be configured to lock the user desktop upon smart card removal."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\sdrsvc.dll,-102"="Provides Windows Backup and Restore capabilities."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\seclogon.dll,-7000"="Enables starting processes under alternate credentials. If this service is stopped, this type of logon access will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\Sens.dll,-201"="Monitors system events and notifies subscribers to COM+ Event System of these events."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\sensrsvc.dll,-1001"="Monitors ambient light sensors to detect changes in ambient light and adjust the display brightness.  If this service is stopped or disabled, the display brightness will not adapt to lighting conditions."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\SessEnv.dll,-1027"="Remote Desktop Configuration service (RDCS) is responsible for all Remote Desktop Services and Remote Desktop related configuration and session maintenance activities that require SYSTEM context. These include per-session temporary folders, RD themes, and RD certificates."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\ipnathlp.dll,-107"="Provides network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\shsvcs.dll,-12289"="Provides notifications for AutoPlay hardware events."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\snmptrap.exe,-4"="Receives trap messages generated by local or remote Simple Network Management Protocol (SNMP) agents and forwards the messages to SNMP management programs running on this computer. If this service is stopped, SNMP-based programs on this computer will not receive SNMP trap messages. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\spoolsv.exe,-2"="Loads files to memory for later printing"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\sppsvc.exe,-100"="Enables the download, installation and enforcement of digital licenses for Windows and Windows applications. If the service is disabled, the operating system and licensed applications may run in a notification mode. It is strongly recommended that you not disable the Software Protection service."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\sppuinotify.dll,-102"="Provides Software Licensing activation and notification"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\ssdpsrv.dll,-101"="Discovers networked devices and services that use the SSDP discovery protocol, such as UPnP devices. Also announces SSDP devices and services running on the local computer. If this service is stopped, SSDP-based devices will not be discovered. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\sstpsvc.dll,-201"="Provides support for the Secure Socket Tunneling Protocol (SSTP) to connect to remote computers using VPN. If this service is disabled, users will not be able to use SSTP to access remote servers."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\wiaservc.dll,-10"="Provides image acquisition services for scanners and cameras"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\StorSvc.dll,-101"="Enforces group policy for storage devices"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\swprv.dll,-102"="Manages software-based volume shadow copies taken by the Volume Shadow Copy service. If this service is stopped, software-based volume shadow copies cannot be managed. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\sysmain.dll,-1001"="Maintains and improves system performance over time."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\TabSvc.dll,-101"="Enables Tablet PC pen and ink functionality"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\tapisrv.dll,-10101"="Provides Telephony API (TAPI) support for programs that control telephony devices on the local computer and, through the LAN, on servers that are also running the service."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\tbssvc.dll,-101"="Enables access to the Trusted Platform Module (TPM), which provides hardware-based cryptographic services to system components and applications.  If this service is stopped or disabled, applications will be unable to use keys protected by the TPM."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\termsrv.dll,-267"="Allows users to connect interactively to a remote computer. Remote Desktop and Remote Desktop Session Host Server depend on this service.  To prevent remote use of this computer, clear the checkboxes on the Remote tab of the System properties control panel item."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\themeservice.dll,-8193"="Provides user experience theme management."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\mmcss.dll,-103"="Provides ordered execution for a group of threads within a specific period of time."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\trkwks.dll,-2"="Maintains links between NTFS files within a computer or across computers in a network."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\servicing\\TrustedInstaller.exe,-101"="Enables installation, modification, and removal of Windows updates and optional components. If this service is disabled, install or uninstall of Windows updates might fail for this computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\ui0detect.exe,-102"="Enables user notification of user input for interactive services, which enables access to dialogs created by interactive services when they appear. If this service is stopped, notifications of new interactive service dialogs will no longer function and there might not be access to interactive service dialogs. If this service is disabled, both notifications of and access to new interactive service dialogs will no longer function."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\umrdp.dll,-1001"="Allows the redirection of Printers/Drives/Ports for RDP connections"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\upnphost.dll,-214"="Allows UPnP devices to be hosted on this computer. If this service is stopped, any hosted UPnP devices will stop functioning and no additional hosted devices can be added. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\dwm.exe,-2001"="Provides Desktop Window Manager startup and maintenance services"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\vaultsvc.dll,-1004"="Provides secure storage and retrieval of credentials to users, applications and security service packages."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\vds.exe,-112"="Provides management services for disks, volumes, file systems, and storage arrays."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\vssvc.exe,-101"="Manages and implements Volume Shadow Copies used for backup and other purposes. If this service is stopped, shadow copies will be unavailable for backup and the backup may fail. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\w32time.dll,-201"="Maintains date and time synchronization on all clients and servers in the network. If this service is stopped, date and time synchronization will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\Wat\\WatUX.exe,-602"="Performs Windows 7 Validation."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\wbengine.exe,-105"="The WBENGINE service is used by Windows Backup to perform backup and recovery operations. If this service is stopped by a user, it may cause the currently running backup or recovery operation to fail. Disabling this service may disable backup and recovery operations using Windows Backup on this computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\wbiosrvc.dll,-101"="The Windows biometric service gives client applications the ability to capture, compare, manipulate, and store biometric data without gaining direct access to any biometric hardware or samples. The service is hosted in a privileged SVCHOST process."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\wcncsvc.dll,-4"="WCNCSVC hosts the Windows Connect Now Configuration which is Microsoft's Implementation of Wi-Fi Protected Setup (WPS) protocol. This is used to configure Wireless LAN settings for an Access Point (AP) or a Wi-Fi Device. The service is started programmatically as needed."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\WcsPlugInService.dll,-201"="The WcsPlugInService service hosts third-party Windows Color System color device model and gamut map model plug-in modules. These plug-in modules are vendor-specific extensions to the Windows Color System baseline color device and gamut map models. Stopping or disabling the WcsPlugInService service will disable this extensibility feature, and the Windows Color System will use its baseline model processing rather than the vendor's desired processing. This might result in inaccurate color rendering."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\wdi.dll,-503"="The Diagnostic Service Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local Service context.  If this service is stopped, any diagnostics that depend on it will no longer function."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\wdi.dll,-501"="The Diagnostic System Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local System context.  If this service is stopped, any diagnostics that depend on it will no longer function."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\webclnt.dll,-101"="Enables Windows-based programs to create, access, and modify Internet-based files. If this service is stopped, these functions will not be available. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\wecsvc.dll,-201"="This service manages persistent subscriptions to events from remote sources that support WS-Management protocol. This includes Windows Vista event logs, hardware and IPMI-enabled event sources. The service stores forwarded events in a local Event Log. If this service is stopped or disabled event subscriptions cannot be created and forwarded events cannot be accepted."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\wercplsupport.dll,-100"="This service provides support for viewing, sending and deletion of system-level problem reports for the Problem Reports and Solutions control panel."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\wersvc.dll,-101"="Allows errors to be reported when programs stop working or responding and allows existing solutions to be delivered. Also allows logs to be generated for diagnostic and repair services. If this service is stopped, error reporting might not work correctly and results of diagnostic services and repairs might not be displayed."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%ProgramFiles%\\Windows Defender\\MsMpRes.dll,-1176"="Protection against spyware and potentially unwanted software"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\winhttp.dll,-101"="WinHTTP implements the client HTTP stack and provides developers with a Win32 API and COM Automation component for sending HTTP requests and receiving responses. In addition, WinHTTP provides support for auto-discovering a proxy configuration via its implementation of the Web Proxy Auto-Discovery (WPAD) protocol."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%Systemroot%\\system32\\wbem\\wmisvc.dll,-204"="Provides a common interface and object model to access management information about operating system, devices, applications and services. If this service is stopped, most Windows-based software will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%Systemroot%\\system32\\wsmsvc.dll,-102"="Windows Remote Management (WinRM) service implements the WS-Management protocol for remote management. WS-Management is a standard web services protocol used for remote software and hardware management. The WinRM service listens on the network for WS-Management requests and processes them. The WinRM Service needs to be configured with a listener using winrm.cmd command line tool or through Group Policy in order for it to listen over the network. The WinRM service provides access to WMI data and enables event collection. Event collection and subscription to events require that the service is running. WinRM messages use HTTP and HTTPS as transports. The WinRM service does not depend on IIS but is preconfigured to share a port with IIS on the same machine.  The WinRM service reserves the /wsman URL prefix. To prevent conflicts with IIS, administrators should ensure that any websites hosted on IIS do not use the /wsman URL prefix."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\wlansvc.dll,-258"="The WLANSVC service provides the logic required to configure, discover, connect to, and disconnect from a wireless local area network (WLAN) as defined by IEEE 802.11 standards. It also contains the logic to turn your computer into a software access point so that other devices or computers can connect to your computer wirelessly using a WLAN adapter that can support this. Stopping or disabling the WLANSVC service will make all WLAN adapters on your computer inaccessible from the Windows networking UI. It is strongly recommended that you have the WLANSVC service running if your computer has a WLAN adapter."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%Systemroot%\\system32\\wbem\\wmiapsrv.exe,-111"="Provides performance library information from Windows Management Instrumentation (WMI) providers to clients on the network. This service only runs when Performance Data Helper is activated."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe,-102"="Shares Windows Media Player libraries to other networked players and media devices using Universal Plug and Play"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\wpcsvc.dll,-101"="This service is a stub for Windows Parental Control functionality that existed in Vista. It is provided for backward compatibility only."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\wpdbusenum.dll,-101"="Enforces group policy for removable mass-storage devices. Enables applications such as Windows Media Player and Image Import Wizard to transfer and synchronize content using removable mass-storage devices."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\wscsvc.dll,-201"="The WSCSVC (Windows Security Center) service monitors and reports security health settings on the computer.  The health settings include firewall (on/off), antivirus (on/off/out of date), antispyware (on/off/out of date), Windows Update (automatically/manually download and install updates), User Account Control (on/off), and Internet settings (recommended/not recommended). The service provides COM APIs for independent software vendors to register and record the state of their products to the Security Center service.  The Action Center (AC) UI uses the service to provide systray alerts and a graphical view of the security health states in the AC control panel.  Network Access Protection (NAP) uses the service to report the security health states of clients to the NAP Network Policy Server to make network quarantine decisions.  The service also has a public API that allows external consumers to programmatically retrieve the aggregated security health state of the system."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\SearchIndexer.exe,-104"="Provides content indexing, property caching, and search results for files, e-mail, and other content."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%systemroot%\\system32\\wuaueng.dll,-106"="Enables the detection, download, and installation of updates for Windows and other programs. If this service is disabled, users of this computer will not be able to use Windows Update or its automatic updating feature, and programs will not be able to use the Windows Update Agent (WUA) API."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\system32\\wudfsvc.dll,-1001"="Manages user-mode driver host processes."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@%SystemRoot%\\System32\\wwansvc.dll,-258"="This service manages mobile broadband (GSM & CDMA) data card/embedded module adapters and connections by auto-configuring the networks. It is strongly recommended that this service be kept running for best user experience of mobile broadband devices."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\powercpl.dll,-1"="Power Options"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\powercpl.dll,-2"="Conserve energy or maximize performance by choosing how your computer manages power."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\taskbarcpl.dll,-1"="Notification Area Icons"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\taskbarcpl.dll,-2"="Select which icons and notifications appear in the notification area."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\Vault.dll,-1"="Credential Manager"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\Vault.dll,-2"="Manage your Windows Credentials."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\sud.dll,-10"="Choose which programs you want Windows to use for activities like web browsing, editing photos, sending e-mail, and playing music."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\tsworkspace.dll,-15300"="RemoteApp and Desktop Connections"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\tsworkspace.dll,-15301"="Manage your RemoteApp and Desktop Connections"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\wucltux.dll,-4"="Check for software and driver updates, choose automatic updating settings, or view installed updates."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Windows Sidebar\\sidebar.exe,-11003"="Desktop Gadgets"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Windows Sidebar\\sidebar.exe,-11002"="View the desktop gadgets installed on your computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\FirewallControlPanel.dll,-12122"="Windows Firewall"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\FirewallControlPanel.dll,-12123"="Set firewall security options to help protect your computer from hackers and malicious software."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\telephon.cpl,-1"="Phone and Modem"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\telephon.cpl,-2"="Configure your telephone dialing rules and modem settings."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Java\\jre7\\bin\\javacpl.exe,-2"="Java(TM) Control Panel"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\Speech\\SpeechUX\\speechuxcpl.dll,-1"="Speech Recognition"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\Speech\\SpeechUX\\speechuxcpl.dll,-2"="Configure how speech recognition works on your computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\usercpl.dll,-1"="User Accounts"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\usercpl.dll,-2"="Change user account settings and passwords for people who share this computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\intl.cpl,-1"="Region and Language"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\intl.cpl,-2"="Customize settings for the display of languages, numbers, times, and dates."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\hgcpl.dll,-1"="HomeGroup"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\hgcpl.dll,-2"="View HomeGroup settings, choose sharing options, and view or change the password."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\main.cpl,-100"="Mouse"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\main.cpl,-101"="Customize your mouse settings, such as the button configuration, double-click speed, mouse pointers, and motion speed."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\main.cpl,-102"="Keyboard"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\main.cpl,-103"="Customize your keyboard settings, such as the cursor blink rate and the character repeat rate."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\devmgr.dll,-4"="Device Manager"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\devmgr.dll,-5"="View and update your hardware's settings and driver software."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\icardres.dll,-4097"="Windows CardSpace"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\icardres.dll,-4098"="Manage Information Cards used to log on and register with websites and online services."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\PerfCenterCPL.dll,-1"="Performance Information and Tools"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\PerfCenterCPL.dll,-2"="Get information about your computer's speed and performance. If solutions to performance problems are available, Windows lets you know."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\appwiz.cpl,-159"="Programs and Features"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\appwiz.cpl,-160"="Uninstall or change programs on your computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\srchadmin.dll,-601"="Indexing Options"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\srchadmin.dll,-602"="Change how Windows indexes items for faster searching"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\netcenter.dll,-1"="Network and Sharing Center"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\netcenter.dll,-2"="Check network status, change network settings and set preferences for sharing files and printers."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\wpccpl.dll,-101"="Change Parental Controls settings."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\autoplay.dll,-1"="AutoPlay"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\autoplay.dll,-2"="Change default settings for CDs, DVDs, and devices so that you can automatically play music, view pictures, install software, and play games."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\SyncCenter.dll,-3001"="Sync files between your computer and network folders"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\recovery.dll,-101"="Recovery"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\recovery.dll,-2"="Restore your system to an earlier time without affecting your files, or replace everything on your computer and reinstall Windows."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\inetcpl.cpl,-4312"="Internet Options"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\inetcpl.cpl,-4313"="Configure your Internet display and connection settings."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\DeviceCenter.dll,-2000"="View and manage devices, printers, and print jobs"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\colorcpl.exe,-6"="Color Management"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\colorcpl.exe,-7"="Change advanced color management settings for displays, scanners, and printers."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\sdcpl.dll,-100"="Backup and restore your files and system. Monitor latest backup status and configuration."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\systemcpl.dll,-1"="System"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\systemcpl.dll,-2"="View information about your computer, and change settings for hardware, performance, and remote connections."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\ActionCenterCPL.dll,-1"="Action Center"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\ActionCenterCPL.dll,-2"="Review recent messages and resolve problems with your computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\Display.dll,-1"="Display"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\Display.dll,-2"="Change your display settings and make it easier to read what's on your screen."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\DiagCpl.dll,-1"="Troubleshooting"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\DiagCpl.dll,-15"="Troubleshoot and fix common computer problems."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\system32\\OobeFldr.dll,-33057"="Learn about Windows features and start using them."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\accessibilitycpl.dll,-45"="Make your computer easier to use."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Windows Defender\\MsMpRes.dll,-104"="Windows Defender"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Program Files\\Windows Defender\\MsMpRes.dll,-1176"="Protection against spyware and potentially unwanted software"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\fvecpl.dll,-1"="BitLocker Drive Encryption"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\fvecpl.dll,-2"="Protect your computer using BitLocker Drive Encryption."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\timedate.cpl,-51"="Date and Time"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\timedate.cpl,-52"="Set the date, time, and time zone for your computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\SensorsCpl.dll,-1"="Location and Other Sensors"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\SensorsCpl.dll,-701"="Configure your sensor settings."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\themecpl.dll,-1"="Personalization"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\themecpl.dll,-2"="Change the pictures, colors, and sounds for this computer."
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\mmsys.cpl,-300"="Sound"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\13\52C64B7E"@C:\\Windows\\System32\\mmsys.cpl,-301"="Configure your audio devices or change the sound scheme for your computer."
+3446c3780
+< HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify"LastAdvertisement"=hex(b):af,40,7c,63,fb,f7,cc,01
+---
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify"LastAdvertisement"=hex(b):57,a9,4e,29,85,fc,cc,01
+3448,3449c3782,3783
+< HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify"PastIconsStream"=hex:14,00,00,00,05,00,00,00,01,00,01,00,0f,00,00,00,14,00,00,\
+< HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify"IconStreams"=hex:14,00,00,00,07,00,00,00,01,00,01,00,0b,00,00,00,14,00,00,00,\
+---
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify"PastIconsStream"=hex:14,00,00,00,05,00,00,00,01,00,01,00,18,00,00,00,14,00,00,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify"IconStreams"=hex:14,00,00,00,07,00,00,00,01,00,01,00,0d,00,00,00,14,00,00,00,\
+3451c3785
+< HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU"MRUListEx"=hex:02,00,00,00,01,00,00,00,00,00,00,00,ff,ff,ff,ff
+---
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU"MRUListEx"=hex:00,00,00,00,02,00,00,00,01,00,00,00,ff,ff,ff,ff
+3511c3845
+< HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2"MRUListEx"=hex:03,00,00,00,01,00,00,00,02,00,00,00,00,00,00,00,ff,ff,ff,ff
+---
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2"MRUListEx"=hex:01,00,00,00,03,00,00,00,02,00,00,00,00,00,00,00,ff,ff,ff,ff
+3519c3853,3869
+< HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1"MRUListEx"=hex:ff,ff,ff,ff
+---
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1"0"=hex:52,00,31,00,00,00,00,00,65,40,a1,ad,11,00,44,72,6f,70,62,6f,78,00,3c,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0"0"=hex:4a,00,31,00,00,00,00,00,65,40,af,a4,10,00,69,6e,69,74,00,00,36,00,08,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0"0"=hex:58,00,31,00,00,00,00,00,5d,40,cc,9d,10,00,44,4f,57,4e,4c,4f,7e,31,00,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0"MRUListEx"=hex:01,00,00,00,00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0"1"=hex:5a,00,31,00,00,00,00,00,5d,40,e5,9c,10,00,53,54,41,52,54,5f,7e,31,00,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\0"NodeSlot"=dword:0000001a
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\0"MRUListEx"=hex:ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\1"NodeSlot"=dword:0000001c
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\1"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\1"0"=hex:56,00,31,00,00,00,00,00,5d,40,2f,9c,10,00,50,72,6f,67,72,61,6d,73,00,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\1\0"NodeSlot"=dword:0000001d
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\1\0"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\1\0"0"=hex:52,00,31,00,00,00,00,00,5d,40,e1,9c,10,00,53,74,61,72,74,75,70,00,3c,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\1\0\0"NodeSlot"=dword:0000001e
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\1\0\0\1\0\0"MRUListEx"=hex:ff,ff,ff,ff
+3523c3873,3874
+< HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+---
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3"MRUListEx"=hex:01,00,00,00,00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3"1"=hex:52,00,31,00,00,00,00,00,5d,40,18,8f,12,20,41,70,70,44,61,74,61,00,3c,\
+3525a3877,3886
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1"0"=hex:52,00,31,00,00,00,00,00,65,40,a6,a4,10,20,52,6f,61,6d,69,6e,67,00,3c,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1\0"0"=hex:58,00,31,00,00,00,00,00,5d,40,c6,a8,14,20,4d,49,43,52,4f,53,7e,31,00,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1\0"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1\0\0"0"=hex:52,00,31,00,00,00,00,00,5d,40,1d,8f,10,20,57,69,6e,64,6f,77,73,00,3c,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1\0\0"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1\0\0\0"0"=hex:82,00,31,00,00,00,00,00,67,40,bb,8e,11,00,53,54,41,52,54,4d,7e,31,00,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1\0\0\0"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1\0\0\0\0"NodeSlot"=dword:0000001b
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\2\3\1\0\0\0\0"MRUListEx"=hex:ff,ff,ff,ff
+3678a4040,4051
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Rev"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"FFlags"=dword:41200011
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Vid"="{137E7700-3573-11CF-AE69-08002B2E1262}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Mode"=dword:00000004
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"LogicalViewMode"=dword:00000001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"IconSize"=dword:00000010
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"ColInfo"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,fd,df,df,fd,10,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Sort"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,30,f1,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupView"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:FMTID"="{00000000-0000-0000-0000-000000000000}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:PID"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\22\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByDirection"=dword:00000001
+3705a4079,4133
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Rev"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"FFlags"=dword:41200001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Vid"="{137E7700-3573-11CF-AE69-08002B2E1262}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Mode"=dword:00000004
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"LogicalViewMode"=dword:00000001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"IconSize"=dword:00000010
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"ColInfo"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,fd,df,df,fd,10,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Sort"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,30,f1,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupView"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:FMTID"="{00000000-0000-0000-0000-000000000000}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:PID"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\25\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByDirection"=dword:00000001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell"KnownFolderDerivedFolderType"="{57807898-8C4F-4462-BB63-71042380B109}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell"SniffedFolderType"="Generic"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Rev"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"FFlags"=dword:41200011
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Vid"="{137E7700-3573-11CF-AE69-08002B2E1262}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Mode"=dword:00000004
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"LogicalViewMode"=dword:00000001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"IconSize"=dword:00000010
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"ColInfo"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,fd,df,df,fd,10,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Sort"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,30,f1,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupView"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:FMTID"="{00000000-0000-0000-0000-000000000000}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:PID"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\26\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByDirection"=dword:00000001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\27\Shell"KnownFolderDerivedFolderType"="{57807898-8C4F-4462-BB63-71042380B109}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell"KnownFolderDerivedFolderType"="{57807898-8C4F-4462-BB63-71042380B109}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell"SniffedFolderType"="Generic"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Rev"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"FFlags"=dword:41200011
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Vid"="{137E7700-3573-11CF-AE69-08002B2E1262}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Mode"=dword:00000004
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"LogicalViewMode"=dword:00000001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"IconSize"=dword:00000010
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"ColInfo"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,fd,df,df,fd,10,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Sort"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,30,f1,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupView"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:FMTID"="{00000000-0000-0000-0000-000000000000}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:PID"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\28\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByDirection"=dword:00000001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell"KnownFolderDerivedFolderType"="{57807898-8C4F-4462-BB63-71042380B109}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell"SniffedFolderType"="Generic"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Rev"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"FFlags"=dword:41200001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Vid"="{137E7700-3573-11CF-AE69-08002B2E1262}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Mode"=dword:00000004
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"LogicalViewMode"=dword:00000001
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"IconSize"=dword:00000010
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"ColInfo"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,fd,df,df,fd,10,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"Sort"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,30,f1,\
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupView"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:FMTID"="{00000000-0000-0000-0000-000000000000}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByKey:PID"=dword:00000000
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\29\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}"GroupByDirection"=dword:00000001
+3717a4146,4147
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\30\Shell"KnownFolderDerivedFolderType"="{57807898-8C4F-4462-BB63-71042380B109}"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\30\Shell"SniffedFolderType"="Generic"
+3812c4242,4245
+< HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache"C:\\users\\x\\appdata\\roaming\\dropbox\\bin\\dropbox.exe"="Dropbox"
+---
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache"C:\\cygwin\\bin\\ruby.exe"="Ruby interpreter (CUI) 1.8.7.358 [i386-cygwin]"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache"C:\\Windows\\system32\\WFS.exe"="Microsoft  Windows Fax and Scan"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache"C:\\users\\nelsons\\Dropbox\\bin\\oracle_vm.bat"="oracle_vm"
+> HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache"C:\\WINDOWS\\system32\\cmd.exe"="Windows Command Processor"

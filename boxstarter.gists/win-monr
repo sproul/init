@@ -1,0 +1,15 @@
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions -EnableShowFullPathInTitleBar
+Update-ExecutionPolicy
+Enable-RemoteDesktop
+Disable-InternetExplorerESC
+Disable-UAC
+Enable-MicrosoftUpdate
+Install-WindowsUpdate
+
+cinst GoogleChrome
+cinst dropbox
+cinst classic-shell
+cinst OpenOffice
+cinst 7zip
+cinst firefox
+cinst console-devel

@@ -1,0 +1,9 @@
+:
+b=`browser_find_exe goog`
+echo $b
+w=`cygpath --unix $WINDIR`
+bat=$w/browser.bat
+chmod +w $w
+echo `cygpath --dos "$b"`" --enable-user-scripts" > "$bat"
+chmod +x "$bat"
+chmod -w $w

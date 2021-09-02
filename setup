@@ -1,0 +1,200 @@
+:
+# prereq: run setup.remote from an esatablished machine first.
+#
+#!       init.done_for_this_host
+#
+#
+## if finished, then send this line
+#
+#
+#
+#
+#
+# path to a chef future:
+#       Linux chef server VM
+#       
+
+
+if [ -d /cygdrive/c ]; then
+        mkdir -p  /cygdrive/c/tmp $HOME/work/bu
+        chmod 777 /cygdrive/c/tmp
+else
+        case `hostname` in
+                ip-*)
+                        aws=yes
+                        case $USER in
+                                root)
+                                        ln -s /root /home/root
+                                        export HOME=/home/root
+                                        cd $HOME/.ssh
+                                        mv authorized_keys authorized_keys.old
+                                        cp ~ec2-user/.ssh/authorized_keys .
+                                        ssh.ck
+                                ;;
+                        esac
+
+                ;;
+        esac
+fi
+mkdir -p $HOME/tmp
+bash -x $dp/init/scripts/init_home.sh
+mkdir -p $BACKUP_DIR
+
+install_thunderbird()
+{
+        pause 'thunderbird installed?'
+        thunderbird_init_from_Drop
+        /cygdrive/c/downloads/ms/Microsoft_Office_2000_Premium/setup.exe
+        if [ -n "thunderbird_wanted" ]; then
+                thunderbird_init_from_Drop
+        fi
+}
+
+
+if [ ! -d /cygdrive/c ]; then
+        honk installs...
+        ls -1d $dp/init/downloads/*
+        date
+        ssh.root $dp/bin/localtime.tz.set America/Los_Angeles
+        cp -pr $dp/home/.chef $HOME/.chef 
+        if [ "$USER" = "root" ]; then
+                if [ -n "$aws" ]; then
+                        home=/home/ec2-user
+                else
+                        home=/home/nsproul
+                fi
+                ln -s $dp /root
+                ln -s $dp/i /root
+                ln -s $home/tmp /root
+                mkdir -p /downloads
+                ln -s /downloads $DOWNLOADS
+                if [ ! -f /root/.profile.old ]; then
+                        mv /root/.profile /root/.profile.old
+                fi
+                echo ". $dp/home/.profile" > /root/.profile
+                if [ ! -f /root/.bashrc.old ]; then
+                        mv /root/.bashrc /root/.bashrc.old
+                fi
+                echo ". $dp/home/.profile" > /root/.bashrc
+
+                z=/etc/sysconfig/iptables
+                if [ -f "$z" ]; then
+                        diff $z $dp/init/data/Linux/etc__sysconfig__iptables
+                        mv $z $z.old
+                        cp -p $dp/init/data/Linux/etc__sysconfig__iptables $z
+                        /etc/init.d/iptables restart
+                fi
+        else
+                mkdir $DOWNLOADS
+                mkdir -p $TMP
+        fi
+        case `hostname` in
+                monr*)
+                        (
+                        cd /cygdrive/c/Windows/System32/inetsrv/
+                        ./appcmd set config /section:asp /limits.maxRequestEntityAllowed:104857600
+                        )
+                ;;
+                o100*)
+                        rmdir /etc/yum.repos.d
+                        scpe -rp w:dp/init/data/Linux/yum.repos.d.oracle /etc/yum.repos.d
+                        yum --assumeyes install VirtualBox-4.2
+                        browser 'http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/OVAB-OVM+Demo+Environment+Using+VirtualBox'
+                ;;
+        esac
+else
+        $dp/init/scripts/init_reg.sh
+        case $USER in
+                x)
+                        md /home/x
+                        cp -pr $HOME/.ssh /home/x/.ssh
+                ;;
+        esac
+        e $dp/init/downloads
+        #cmd /c goog_chrome.url
+        #echo install jdk to c:/java/jdk.n.n.n...
+        #for f in *; do
+        #case "$f" in
+        #w2k7.ClassicShellSetup_3_3_0.exe )
+        #if [ -n "`w7`" ]; then
+        #./$f
+        #fi
+        #;;
+        #goog_chrome.url )
+        #echo ignoring $f...
+        #;;
+        #*.lnk|*.url )
+        #cmd /c $f
+        #;;
+        #*.exe )
+        #./$f
+        #;;
+        #esac
+        #done
+        bash -x start_menu.propagate
+        bash -x start_menu.rejig.sh
+        #install_thunderbird
+fi
+if [ -n "`is_home_mode`" ]; then
+        if [ -d /cygdrive/c ]; then
+                e home
+                (
+                cd /cygdrive/c/
+                unwrap $dp/init/data/win/Jts.tar.gz   # get my preferred IB behavior
+                )
+        fi
+        rvm.download_and_setup
+        git.init
+        #b https://secure.logmein.com/logmein.msi
+else
+        if [ ! -d /cygdrive/c ]; then
+                echo compare, adjust
+                canonical=$dp/init/data/Linux/sshd_config
+                if [ -n "$aws" ]; then
+                        canonical=$canonical.aws
+                fi
+                echo diff $canonical /etc/ssh/sshd_config
+                diff $canonical /etc/ssh/sshd_config
+                /sbin/service sshd restart
+        else
+                mv /cygdrive/c/Windows/ssh.exe /cygdrive/c/Windows/putty_WAS_SSH.exe 
+                e orcl
+                reg_set_orcl_proxy
+                browser.install_extensions  # so far just for orcl
+                b http://printers.oraclecorp.com
+                mkdir /cygdrive/c/data
+                scp -i /home/x/.ssh/id_rsa wonkaha.us.oracle.com:/home/nsproul/data/*.pst /cygdrive/c/data
+        fi
+fi
+if [ ! -d /cygdrive/c ]; then
+        sp
+        locate.init
+else
+        bx python.init
+        django.init
+        emacs.init
+        windir=`cygpath --unix $WINDIR`
+        hfn=$windir/system32/drivers/etc/HOSTS
+        rfn=$windir/system32/regedit.exe
+        if [ ! -w $hfn ]; then
+                Elevate chmod 777 $hfn $rfn
+        fi
+        #
+        #
+        #
+        # I think maybe this isn't needed?  what about that code to get it into /home/$USERNAME?
+        #if [ ! -d $HOME/.ssh ]; then
+        #        cp -prf $dp/home/s $HOME/.ssh
+        #        ssh_ck
+        #fi
+
+        $dp/bin/HotKeyBind-1.2/HotKeyBind.exe
+        echo define win-alt-x hotkeybind hot key to maximize MDI child
+        $DOWNLOADS2/vmware/VMware-workstation-full-8.0.2-591240.exe &
+fi
+
+ruby.init
+#bash -x cron.update.sh
+
+exit
+export HOME=/cygdrive/c/users/nelsons; sh -x $dp/init/setup
